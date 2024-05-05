@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/social_media?useSSl=false
+    username: root
+    password: prk@2211
+  #JPA settings
+  jpa:
+    hibernate:
+      ddl-auto: create
